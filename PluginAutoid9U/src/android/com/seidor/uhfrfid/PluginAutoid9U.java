@@ -1,4 +1,4 @@
-package cordova-plugin-teste-plugin;
+package com.seidor.uhfrfid;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -11,7 +11,7 @@ import com.seuic.uhf.UHFService;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class testePlugin extends CordovaPlugin {
+public class PluginAutoid9U extends CordovaPlugin {
 	private CallbackContext receiveScanCallback;
 	static private UHFClient instance = null;
 
@@ -27,7 +27,7 @@ public class testePlugin extends CordovaPlugin {
 
     private void coolMethod(String message, CallbackContext callbackContext) {
         if (message != null && message.length() > 0) {
-            callbackContext.success(message);
+            callbackContext.success(message + "Teste deu bom em !!!");
         } else {
             callbackContext.error("Expected one non-empty string argument.");
         }
