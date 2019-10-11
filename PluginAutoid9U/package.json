@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-teste-plugin",
+  "name": "cordova-plugin-autoid",
   "version": "0.0.1",
   "description": "",
   "cordova": {
-    "id": "cordova-plugin-teste-plugin",
+    "id": "com.seidor.uhfrfid",
     "platforms": [
       "android"
     ]
@@ -12,6 +12,6 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "",
+  "author": "Wellington Azevedo",
   "license": "ISC"
 }

@@ -1,4 +1,4 @@
-package com.seuic.uhfdemo;
+package com.seidor.uhfrfid;
 
 import com.seuic.uhf.UHFService;
 
