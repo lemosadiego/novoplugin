@@ -13,11 +13,11 @@ import com.seuic.uhf.UHFService;
  */
 public class PluginAutoid9U extends CordovaPlugin {
 	private CallbackContext receiveScanCallback;
-	static private UHFClient instance = null;
+	// static private UHFClient instance = null;
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        if (action.equals("coolMethod")) {
+        if (action.equals("initialise")) {
             String message = args.getString(0);
             this.coolMethod(message, callbackContext);
             return true;
